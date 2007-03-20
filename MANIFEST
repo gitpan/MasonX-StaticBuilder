@@ -2,6 +2,7 @@ Changes
 Build.PL
 MANIFEST
 README
+META.yml
 lib/MasonX/StaticBuilder.pm
 lib/MasonX/StaticBuilder/Component.pm
 t/00-load.t
@@ -18,3 +19,6 @@ t/test-input-dir/args
 t/test-input-dir/autohandler-dir/autohandler
 t/test-input-dir/autohandler-dir/ahtest
 t/test-input-dir/init
+examples/website-static/index.html
+examples/website-static/news.html
+examples/build-website.pl

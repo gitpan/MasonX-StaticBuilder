@@ -3,7 +3,7 @@ package MasonX::StaticBuilder;
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use base qw(Class::Accessor);
 MasonX::StaticBuilder->mk_accessors(qw(input_dir));
@@ -19,8 +19,8 @@ MasonX::StaticBuilder -- Build a static website from Mason components
 =head1 SYNOPSIS
 
     use MasonX::StaticBuilder;
-    my $tree = MasonX::StaticBuilder($input_dir);
-    $tree->write($output_dir, @args);
+    my $tree = MasonX::StaticBuilder->new($input_dir);
+    $tree->write($output_dir, %args);
 
 =head1 DESCRIPTION
 
@@ -124,7 +124,7 @@ sub new {
 Expand the template directory and write it out to the specified output
 directory, passing any additional args to the mason components it finds.
 
-=begin testing write
+=begin testing
 
 my $t = MasonX::StaticBuilder->new("t/test-input-dir");
 system "rm -rf t/test-output-dir";

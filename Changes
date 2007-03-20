@@ -1,5 +1,10 @@
 Revision history for MasonX-StaticBuilder
 
+0.03    2007-03-20
+        * Included META.yml
+        * Added examples/ directory
+        * Small syntax fix in the SYNOPSIS of the docs
+
 0.02    2007-03-20
         Just a repackaging.  The first one didn't upload correctly to
         CPAN.

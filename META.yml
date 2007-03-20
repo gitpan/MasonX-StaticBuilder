@@ -1,0 +1,16 @@
+---
+name: MasonX-StaticBuilder
+version: 0.03
+author:
+  - 'Kirrily Robert <skud@cpan.org>'
+abstract: ~
+license: perl
+build_requires:
+  Test::More: 0
+provides:
+  MasonX::StaticBuilder:
+    file: lib/MasonX/StaticBuilder.pm
+    version: 0.03
+  MasonX::StaticBuilder::Component:
+    file: lib/MasonX/StaticBuilder/Component.pm
+generated_by: Module::Build version 0.26

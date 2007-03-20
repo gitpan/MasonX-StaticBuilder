@@ -6,7 +6,7 @@ $| = 1;
 
 
 
-# =begin testing
+# =begin testing new
 {
 use_ok('MasonX::StaticBuilder::Component');
 my $t = MasonX::StaticBuilder::Component->new({

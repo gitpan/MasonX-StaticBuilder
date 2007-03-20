@@ -97,7 +97,7 @@ And in the template:
 
     Foo is <% $foo %>
 
-=begin testing fill_in
+=begin testing
 
 my $t = MasonX::StaticBuilder::Component->new({
     comp_root => "t",

@@ -6,7 +6,7 @@ $| = 1;
 
 
 
-# =begin testing
+# =begin testing new
 {
 use_ok('MasonX::StaticBuilder');
 my $t = MasonX::StaticBuilder->new(".");
