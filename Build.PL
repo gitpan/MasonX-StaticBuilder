@@ -9,6 +9,7 @@ my $builder = Module::Build->new(
     dist_version_from   => 'lib/MasonX/StaticBuilder.pm',
     build_requires => {
         'Test::More' => 0,
+        'File::Find::Rule' => 0,
     },
     add_to_cleanup      => [ 'MasonX-StaticBuilder-*' ],
 );
